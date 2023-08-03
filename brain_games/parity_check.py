@@ -2,7 +2,7 @@ import prompt
 import random
 
 
-def honesty_check():
+def parity_check():
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')

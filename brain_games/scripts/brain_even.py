@@ -1,8 +1,8 @@
-from brain_games import honesty_check
+from brain_games import parity_check
 
 
 def main():
-    honesty_check.honesty_check()
+    parity_check.parity_check()
 
 
 if __name__ == '__main__':
