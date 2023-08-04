@@ -2,23 +2,22 @@ import prompt
 import random
 
 
-def parity_check():
+def main_logic(game):
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
-    print('Answer "yes" if the number is even, otherwise answer "no".')
+    print(instruction)
     correct_count = 0
     for i in range(3):
-        number = random.randint(1, 1000000)
-        print(f'Question: {number}')
-        answer = str.lower(prompt.string('Your answer: '))
-        if (number % 2 == 0 and answer == 'yes') or (number % 2 != 0 and answer == 'no'):
+        print(f'Question: {expression}')
+        answer
+        if condition:
             print('Correct!')
             correct_count += 1
             if correct_count == 3:
                 print(f'Congratulations, {name}!')
         else:
-            if number % 2 == 0:
+            if right_condition:
                 correct_answer = 'yes'
             else:
                 correct_answer = 'no'
