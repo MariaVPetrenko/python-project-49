@@ -20,3 +20,12 @@ def condition(expression, user_answer):
 
 def right_condition(expression):
     return expression % 2 == 0
+
+
+def right_answer_if_condition_is_true():
+    return 'yes'
+
+
+def right_answer_if_condition_is_false():
+    return 'no'
+

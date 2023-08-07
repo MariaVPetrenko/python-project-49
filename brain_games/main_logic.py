@@ -19,8 +19,8 @@ def main_logic(game):
                 print(f'Congratulations, {name}!')
         else:
             if game.right_condition(current_expression):
-                correct_answer = 'yes'
+                correct_answer = game.right_answer_if_condition_is_true()
             else:
-                correct_answer = 'no'
+                correct_answer = game.right_answer_if_condition_is_false()
             print(f"'{current_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.\nLet's try again, {name}!")
             break
