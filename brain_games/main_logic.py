@@ -6,20 +6,21 @@ def main_logic(game):
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
-    print(instruction)
+    print(game.instruction())
     correct_count = 0
     for i in range(3):
-        print(f'Question: {expression}')
-        answer
-        if condition:
+        current_expression = game.expression()
+        print(f'Question: {current_expression}')
+        current_answer = game.answer()
+        if game.condition(current_expression, current_answer):
             print('Correct!')
             correct_count += 1
             if correct_count == 3:
                 print(f'Congratulations, {name}!')
         else:
-            if right_condition:
+            if game.right_condition(current_expression):
                 correct_answer = 'yes'
             else:
                 correct_answer = 'no'
-            print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.\nLet's try again, {name}!")
+            print(f"'{current_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.\nLet's try again, {name}!")
             break
