@@ -22,10 +22,10 @@ def right_condition(expression):
     return expression % 2 == 0
 
 
-def right_answer_if_condition_is_true():
+def right_answer_if_condition_is_true(expression):
     return 'yes'
 
 
-def right_answer_if_condition_is_false():
+def right_answer_if_condition_is_false(expression):
     return 'no'
 
