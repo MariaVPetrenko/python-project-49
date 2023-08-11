@@ -37,8 +37,8 @@ def condition(expression, user_answer):
     dots_index = progression.index('..')
     step = (
     int(progression[dots_index + 1])
-    - int(progression[dots_index - 1])
-    ) / 2
+         - int(progression[dots_index - 1])
+        ) / 2
     result = int(progression[dots_index - 1]) + int(step)
     return result - user_answer == 0
 
@@ -48,8 +48,8 @@ def right_condition(expression):
     dots_index = progression.index('..')
     step = (
     int(progression[dots_index + 1])
-    - int(progression[dots_index - 1])
-    ) / 2
+         - int(progression[dots_index - 1])
+        ) / 2
     result = int(progression[dots_index - 1]) + int(step)
     return result
 
@@ -59,8 +59,8 @@ def right_answer_if_condition_is_true(expression):
     dots_index = progression.index('..')
     step = (
     int(progression[dots_index + 1])
-    - int(progression[dots_index - 1])
-    ) / 2
+         - int(progression[dots_index - 1])
+        ) / 2
     result = int(progression[dots_index - 1]) + int(step)
     return result
 
@@ -70,7 +70,7 @@ def right_answer_if_condition_is_false(expression):
     dots_index = progression.index('..')
     step = (
     int(progression[dots_index + 1])
-    - int(progression[dots_index - 1])
-    ) / 2
+         - int(progression[dots_index - 1])
+        ) / 2
     result = int(progression[dots_index - 1]) + int(step)
     return result
