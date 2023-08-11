@@ -15,7 +15,8 @@ def expression():
 
 
 def condition(expression, user_answer):
-    return (expression % 2 == 0 and user_answer == 'yes') or (expression % 2 != 0 and user_answer == 'no')
+    return (expression % 2 == 0 and user_answer == 'yes') or \
+           (expression % 2 != 0 and user_answer == 'no')
 
 
 def right_condition(expression):
