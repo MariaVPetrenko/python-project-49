@@ -20,7 +20,7 @@ def expression():
     random_element_index = random.randint(1, len(progression) - 2)
     final_progression = progression.copy()
     final_progression[random_element_index] = '..'
-    final_progression = " ".join(map(str,final_progression))
+    final_progression = " ".join(map(str, final_progression))
     return final_progression
 
 

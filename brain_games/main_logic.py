@@ -1,5 +1,4 @@
 import prompt
-import random
 
 
 def main_logic(game):

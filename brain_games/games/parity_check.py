@@ -28,4 +28,3 @@ def right_answer_if_condition_is_true(expression):
 
 def right_answer_if_condition_is_false(expression):
     return 'no'
-

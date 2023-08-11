@@ -3,8 +3,9 @@ from brain_games.games import calculator
 
 
 def main():
-     main_logic.main_logic(calculator)
+    main_logic.main_logic(calculator)
+
 
 if __name__ == '__main__':
-    
+
     main()

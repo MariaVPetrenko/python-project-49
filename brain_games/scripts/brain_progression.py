@@ -3,8 +3,9 @@ from brain_games.games import progression
 
 
 def main():
-     main_logic.main_logic(progression)
+    main_logic.main_logic(progression)
+
 
 if __name__ == '__main__':
-    
+
     main()
