@@ -4,7 +4,7 @@ from brain_games.games import prime
 
 
 def main():
-    main_logic.main_logic(prime)
+    main_logic.launch_game(prime)
 
 
 if __name__ == '__main__':

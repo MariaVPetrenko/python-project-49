@@ -2,8 +2,7 @@ import prompt
 import random
 
 
-def instruction():
-    return 'Answer "yes" if the number is even, otherwise answer "no".'
+INSTRUCTION = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def answer():

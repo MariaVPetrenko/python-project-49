@@ -3,8 +3,7 @@ import random
 import math
 
 
-def instruction():
-    return 'Find the greatest common divisor of given numbers.'
+INSTRUCTION = 'Find the greatest common divisor of given numbers.'
 
 
 def expression():

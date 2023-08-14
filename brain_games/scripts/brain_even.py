@@ -4,7 +4,7 @@ from brain_games.games import parity_check
 
 
 def main():
-    main_logic.main_logic(parity_check)
+    main_logic.launch_game(parity_check)
 
 
 if __name__ == '__main__':

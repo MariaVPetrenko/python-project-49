@@ -2,8 +2,7 @@ import prompt
 import random
 
 
-def instruction():
-    return 'What number is missing in the progression?'
+INSTRUCTION = 'What number is missing in the progression?'
 
 
 def expression():
