@@ -1,1 +1,12 @@
+__pycache__/
+__pypackages__/
+pip-log.txt
+pip-delete-this-directory.txt
+instance/
+.env
 .venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
