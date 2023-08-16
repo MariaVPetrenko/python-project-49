@@ -9,22 +9,17 @@ def launch_game(game):
     correct_count = 0
     NUMBER_OF_ROUNDS = 3
     for i in range(NUMBER_OF_ROUNDS):
-        current_expression = game.expression()
+        question, correct_answer = game.get_question_and_answer()
+        current_expression = question
         print(f'Question: {current_expression}')
-        current_answer = game.answer()
-        if game.condition(current_expression, current_answer):
+        user_answer = str.lower(prompt.string('Your answer: '))
+        if user_answer == correct_answer:
             print('Correct!')
             correct_count += 1
             if correct_count == 3:
                 print(f'Congratulations, {name}!')
         else:
-            if game.right_condition(current_expression):
-                correct_answer = game.right_answer_if_condition_is_true(
-                    current_expression)
-            else:
-                correct_answer = game.right_answer_if_condition_is_false(
-                    current_expression)
-            print(f"'{current_answer}' is wrong answer ;(."
+            print(f"'{user_answer}' is wrong answer ;(."
                   f" Correct answer was '{correct_answer}'."
                   f"\nLet's try again, {name}!")
             break
