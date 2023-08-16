@@ -24,7 +24,7 @@ flake8 = "^5.0.4"
 
 
 [tool.poetry.group.dev.dependencies]
-flake8 = "^6.1.0"
+flake8 = "^5.0.4"
 
 [build-system]
 requires = ["poetry-core"]
