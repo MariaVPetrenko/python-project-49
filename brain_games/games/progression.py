@@ -9,7 +9,7 @@ def get_question_and_answer():
     progression = []
     start = random.randint(1, 1000)
     step = random.randint(2, 9)
-    stop = random.randint(start + step + 20, 1000)
+    stop = random.randint(start + step + 20, 10000)
 
     i = start
     while i < stop:
