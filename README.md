@@ -14,24 +14,31 @@ The package contains 5 math games:
 3. flake8 5.0.4
 # Setup and run 'Even number' game
 ## Setup
-`git clone git@github.com:MariaVPetrenko/python-project-49.git`
-## Command for running 'Even number' game
-`brain-even`
+### Copy repo
+ `git clone git@github.com:MariaVPetrenko/python-project-49.git`
+ ### Build package
+ `make build`
+ ### Publish package
+ `make publish`
+ ### Install package
+ `make package-install`
+ ### Run 'Even number' game
+ `brain-even`
 
-<a href="https://asciinema.org/a/600423" target="_blank"><img src="https://asciinema.org/a/600423.svg" /></a>
-### Run 'Calculator game'
+[![asciicast](https://asciinema.org/a/603255.svg)](https://asciinema.org/a/603255)
+# Run 'Calculator game'
 `brain-calc`
 
-<a href="https://asciinema.org/a/603079" target="_blank"><img src="https://asciinema.org/a/603079.svg" /></a>
-### Run 'Greatest Common Divisor' game
+[![asciicast](https://asciinema.org/a/603079.svg)](https://asciinema.org/a/603079)
+# Run 'Greatest Common Divisor' game
 `brain-gcd`
 
-<a href="https://asciinema.org/a/603080" target="_blank"><img src="https://asciinema.org/a/603080.svg" /></a>
-### Run 'Arithmetic progression' game
+[![asciicast](https://asciinema.org/a/603080.svg)](https://asciinema.org/a/603080)
+# Run 'Arithmetic progression' game
 `brain-progression`
 
-<a href="https://asciinema.org/a/603083" target="_blank"><img src="https://asciinema.org/a/603083.svg" /></a>
-### Run 'Prime number' game
+[![asciicast](https://asciinema.org/a/603083.svg)](https://asciinema.org/a/603083)
+# Run 'Prime number' game
 `brain-prime`
 
-<a href="https://asciinema.org/a/601789" target="_blank"><img src="https://asciinema.org/a/601789.svg" /></a>
+[![asciicast](https://asciinema.org/a/601789.svg)](https://asciinema.org/a/601789)
