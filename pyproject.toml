@@ -20,7 +20,6 @@ packages = [
 [tool.poetry.dependencies]
 python = "^3.10"
 prompt = "^0.4.1"
-flake8 = "^5.0.4"
 
 
 [tool.poetry.group.dev.dependencies]
