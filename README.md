@@ -22,8 +22,8 @@ The package contains 5 math games:
  `make publish`
  ### Install package
  `make package-install`
-## Command for running 'Even number' game
-`brain-even`
+ ### Run 'Even number' game
+ `brain-even`
 
 [![asciicast](https://asciinema.org/a/603255.svg)](https://asciinema.org/a/603255)
 ### Run 'Calculator game'
