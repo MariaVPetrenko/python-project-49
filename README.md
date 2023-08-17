@@ -14,10 +14,14 @@ The package contains 5 math games:
 3. flake8 5.0.4
 # Setup and run 'Even number' game
 ## Setup
-1. `git clone git@github.com:MariaVPetrenko/python-project-49.git`
-2. `make build`
-3. `make publish`
-4. `make package-install`
+### Copy repo
+ `git clone git@github.com:MariaVPetrenko/python-project-49.git`
+ ### Build package
+ `make build`
+ ### Publish package
+ `make publish`
+ ### Install package
+ `make package-install`
 ## Command for running 'Even number' game
 `brain-even`
 
