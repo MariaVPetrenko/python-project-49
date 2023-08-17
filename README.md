@@ -22,15 +22,15 @@ The package contains 5 math games:
 ### Run 'Calculator game'
 `brain-calc`
 
-<a href="https://asciinema.org/a/601238" target="_blank"><img src="https://asciinema.org/a/601238.svg" /></a>
+<a href="https://asciinema.org/a/603079" target="_blank"><img src="https://asciinema.org/a/603079.svg" /></a>
 ### Run 'Greatest Common Divisor' game
 `brain-gcd`
 
-<a href="https://asciinema.org/a/601728" target="_blank"><img src="https://asciinema.org/a/601728.svg" /></a>
+<a href="https://asciinema.org/a/603080" target="_blank"><img src="https://asciinema.org/a/603080.svg" /></a>
 ### Run 'Arithmetic progression' game
 `brain-progression`
 
-<a href="https://asciinema.org/a/601785" target="_blank"><img src="https://asciinema.org/a/601785.svg" /></a>
+<a href="https://asciinema.org/a/603083" target="_blank"><img src="https://asciinema.org/a/603083.svg" /></a>
 ### Run 'Prime number' game
 `brain-prime`
 
