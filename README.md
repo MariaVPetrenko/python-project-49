@@ -26,19 +26,19 @@ The package contains 5 math games:
  `brain-even`
 
 [![asciicast](https://asciinema.org/a/603255.svg)](https://asciinema.org/a/603255)
-### Run 'Calculator game'
+# Run 'Calculator game'
 `brain-calc`
 
 [![asciicast](https://asciinema.org/a/603079.svg)](https://asciinema.org/a/603079)
-### Run 'Greatest Common Divisor' game
+# Run 'Greatest Common Divisor' game
 `brain-gcd`
 
 [![asciicast](https://asciinema.org/a/603080.svg)](https://asciinema.org/a/603080)
-### Run 'Arithmetic progression' game
+# Run 'Arithmetic progression' game
 `brain-progression`
 
 [![asciicast](https://asciinema.org/a/603083.svg)](https://asciinema.org/a/603083)
-### Run 'Prime number' game
+# Run 'Prime number' game
 `brain-prime`
 
 [![asciicast](https://asciinema.org/a/601789.svg)](https://asciinema.org/a/601789)
