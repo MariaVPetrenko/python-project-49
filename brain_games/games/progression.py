@@ -2,26 +2,29 @@ import random
 
 
 INSTRUCTION = 'What number is missing in the progression?'
+START_RANGE_START = 1
+START_RANGE_FINISH = 1000
+STEP_RANGE_START = 2
+STEP_RANGE_FINISH = 9
+LENGTH_RANGE_START = 5
+LENGTH_RANGE_FINISH = 10
+INDEX_RANGE_START = 0
 
 
 def get_question_and_answer():
     progression = []
-    start = random.randint(1, 1000)
-    step = random.randint(2, 9)
-    length = random.randint(5, 10)
+    start = random.randint(START_RANGE_START, START_RANGE_FINISH)
+    step = random.randint(STEP_RANGE_START, STEP_RANGE_FINISH)
+    length = random.randint(LENGTH_RANGE_START, LENGTH_RANGE_FINISH)
 
     i = start
     while len(progression) < length:
         progression.append(i)
         i += step
-    random_element_index = random.randint(1, len(progression) - 2)
+    random_element_index = random.randint(INDEX_RANGE_START,
+                                          len(progression) - 1)
+    random_element = progression[random_element_index]
     progression[random_element_index] = '..'
-    current_expression = " ".join(map(str, progression))
-    progression = current_expression.split()
-    dots_index = progression.index('..')
-    step = (
-        int(progression[dots_index + 1])
-        - int(progression[dots_index - 1])
-    ) / 2
-    correct_answer = str(int(progression[dots_index - 1]) + int(step))
-    return current_expression, correct_answer
+    question = " ".join(map(str, progression))
+    correct_answer = str(random_element)
+    return question, correct_answer

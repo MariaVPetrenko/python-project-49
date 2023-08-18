@@ -10,9 +10,9 @@ def launch_game(game):
     print(f'Hello, {name}!')
     print(game.INSTRUCTION)
     for i in range(ROUNDS_COUNT):
-        current_expression, correct_answer = game.get_question_and_answer()
-        question = f'Question: {current_expression}'
-        print(question)
+        question, correct_answer = game.get_question_and_answer()
+        current_question = f'Question: {question}'
+        print(current_question)
         user_answer = str.lower(prompt.string('Your answer: '))
         if user_answer != correct_answer:
             print(f"'{user_answer}' is wrong answer ;(."

@@ -2,6 +2,8 @@ import random
 
 
 INSTRUCTION = 'Answer "yes" if the number is even, otherwise answer "no".'
+RANGE_START = 1
+RANGE_FINISH = 1000000
 
 
 def is_even(number):
@@ -9,9 +11,9 @@ def is_even(number):
 
 
 def get_question_and_answer():
-    current_expression = random.randint(1, 1000000)
-    if is_even(current_expression):
+    question = random.randint(RANGE_START, RANGE_FINISH)
+    if is_even(question):
         correct_answer = 'yes'
     else:
         correct_answer = 'no'
-    return current_expression, correct_answer
+    return question, correct_answer

@@ -3,12 +3,14 @@ import math
 
 
 INSTRUCTION = 'Find the greatest common divisor of given numbers.'
+RANGE_START = 1
+RANGE_FINISH = 100
 
 
 def get_question_and_answer():
-    EXPRESSION_FIRST_NUMBER = random.randint(1, 100)
-    EXPRESSION_SECOND_NUMBER = random.randint(1, 100)
-    current_expression = f'{EXPRESSION_FIRST_NUMBER} {EXPRESSION_SECOND_NUMBER}'
-    correct_answer = str(math.gcd(EXPRESSION_FIRST_NUMBER,
-                                  EXPRESSION_SECOND_NUMBER))
-    return current_expression, correct_answer
+    expression_first_number = random.randint(RANGE_START, RANGE_FINISH)
+    expression_second_number = random.randint(RANGE_START, RANGE_FINISH)
+    question = f'{expression_first_number} {expression_second_number}'
+    correct_answer = str(math.gcd(expression_first_number,
+                                  expression_second_number))
+    return question, correct_answer
