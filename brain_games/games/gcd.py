@@ -8,9 +8,8 @@ RANGE_FINISH = 100
 
 
 def get_question_and_answer():
-    expression_first_number = random.randint(RANGE_START, RANGE_FINISH)
-    expression_second_number = random.randint(RANGE_START, RANGE_FINISH)
-    question = f'{expression_first_number} {expression_second_number}'
-    correct_answer = str(math.gcd(expression_first_number,
-                                  expression_second_number))
+    first_number = random.randint(RANGE_START, RANGE_FINISH)
+    second_number = random.randint(RANGE_START, RANGE_FINISH)
+    question = f'{first_number} {second_number}'
+    correct_answer = str(math.gcd(first_number, second_number))
     return question, correct_answer

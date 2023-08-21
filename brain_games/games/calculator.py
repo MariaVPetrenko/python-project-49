@@ -8,15 +8,14 @@ RANGE_FINISH = 100
 
 
 def get_question_and_answer():
-    expression_operator = random.choice(OPERATORS)
-    expression_first_number = random.randint(RANGE_START, RANGE_FINISH)
-    expression_second_number = random.randint(RANGE_START, RANGE_FINISH)
-    question = (f'{expression_first_number} {expression_operator} '
-                f'{expression_second_number}')
-    if expression_operator == '+':
-        correct_answer = str(expression_first_number + expression_second_number)
-    elif expression_operator == '-':
-        correct_answer = str(expression_first_number - expression_second_number)
-    elif expression_operator == '*':
-        correct_answer = str(expression_first_number * expression_second_number)
+    operator = random.choice(OPERATORS)
+    first_number = random.randint(RANGE_START, RANGE_FINISH)
+    second_number = random.randint(RANGE_START, RANGE_FINISH)
+    question = (f'{first_number} {operator} {second_number}')
+    if operator == '+':
+        correct_answer = str(first_number + second_number)
+    elif operator == '-':
+        correct_answer = str(first_number - second_number)
+    elif operator == '*':
+        correct_answer = str(first_number * second_number)
     return question, correct_answer
