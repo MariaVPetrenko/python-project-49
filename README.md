@@ -26,7 +26,7 @@ The package contains 5 math games:
  `brain-even`
 
 [![asciicast](https://asciinema.org/a/603255.svg)](https://asciinema.org/a/603255)
-# Run 'Calculator game'
+# Run 'Calculator' game
 `brain-calc`
 
 [![asciicast](https://asciinema.org/a/603079.svg)](https://asciinema.org/a/603079)
